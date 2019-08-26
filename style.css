@@ -1,0 +1,91 @@
+body {
+    background-color: #222831;    
+}
+
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+    color: #00adb5;
+}
+
+p, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #eeeeee;
+}
+
+p {
+    font-size: 20px;
+}
+
+p a {
+    font-family: 'Open Sans', sans-serif;
+    color: #00adb5;
+    text-decoration: none;
+}
+
+h3 a {
+    font-family: 'Open Sans', sans-serif;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+h2 {
+    border-bottom: #eeeeee 1px solid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div ul {
+    overflow: hidden;
+}
+
+li img {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#leftColumn{
+    width: 20%;
+    float: left;
+    margin-top: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#rightColumn {
+    width: 70%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 5%;
+}
+
+#profilePicture {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: #393e46;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.menuItems {
+    padding: 10px;
+}
+
+.section {
+    background-color: #393e46;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.infoPersonal {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: #727272 1px solid;
+}
