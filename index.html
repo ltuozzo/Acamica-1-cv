@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre|Dosis&display=swap"
       rel="stylesheet"
@@ -11,14 +11,16 @@
   </head>
   <body>
     <div id="leftColumn">
-      <img
-        src="Imagenes/profile-picture.jpg"
-        alt="Lucas Javier Tuozzo"
-        id="profilePicture"
-        width="65%"
-        height="auto"
-      />
-      <div class="menu">
+      <!-- Imagen de perfil y menu -->
+      <div>
+        <img
+          src="Imagenes/profile-picture.jpg"
+          alt="Lucas Javier Tuozzo"
+          id="profilePicture"
+          width="65%"
+          height="auto"
+        />
+        <div class="menu">
           <h3 class="menuItems"><a href="#sobreMi">Sobre mi</a></h3>
         </div>
         <div class="menu">
@@ -30,8 +32,23 @@
         <div class="menu">
           <h3 class="menuItems"><a href="#portfolio">Portfolio</a></h3>
         </div>
+      </div>
+      <!-- Idiomas y conocimientos -->
+      <div id="leftColumnBottom">
+        <div class="section">
+          <h2>Idiomas</h2>
+          <p><strong>Español</strong> - Nativo</p>
+          <p><strong>Inglés</strong> - Bilingüe</p>
+          <p><strong>Portugués</strong> - Básico</p>
+        </div>
+        <div class="section">
+          <h2>Conocimientos</h2>
+          <p>Maquetado,<br>Patrones de diseño, Programación orientada a objetos,<br>Testeo y refactoring, APIs, Bases de datos, Deployment</p>
+        </div>
+      </div>
     </div>
     <div id="rightColumn">
+      <!-- Sobre mi -->
       <div class="section">
         <h2 id="sobreMi">Sobre mi</h2>
         <h1>Lucas Javier Tuozzo</h1>
@@ -62,16 +79,19 @@
         <p>Soy un firme creyente en la retroalimentación y en el constante crecimiento en equipo.</p>
         </p>
       </div>
+      <!-- Formación -->
       <div class="section">
         <h2 id="formacion">Formación</h2>
         <p>Lorem ipsum dolor amet bushwick tote bag vinyl iPhone artisan banh mi craft beer DIY pinterest ramps food truck unicorn church-key wolf plaid. Vaporware actually jianbing, ethical you probably haven't heard of them vegan 8-bit prism asymmetrical yr. Photo booth fanny pack bespoke, biodiesel +1 retro normcore cornhole. Try-hard paleo bushwick bespoke echo park, gluten-free salvia wolf fashion axe cronut retro blue bottle dreamcatcher letterpress trust fund. Crucifix migas microdosing man bun.</p>
       </div>
+      <!-- Experiencia -->
       <div class="section">
         <h2 id="experiencia">Experiencia</h2>
         <p>Polaroid snackwave sartorial kinfolk swag, cardigan tumeric selfies poke four loko offal messenger bag portland whatever kickstarter. Portland truffaut shaman fashion axe ethical subway tile. Aesthetic four dollar toast tacos pok pok portland fixie cray sriracha. Authentic glossier trust fund hexagon mumblecore vice ennui, tilde pork belly hella coloring book bespoke. Raw denim cloud bread single-origin coffee +1 pour-over vape tofu disrupt mixtape tumeric art party microdosing.</p>
 
         <p>Viral wolf literally bicycle rights, hoodie roof party try-hard forage. Gluten-free pok pok tilde, poutine retro air plant asymmetrical four loko venmo chartreuse hot chicken lumbersexual everyday carry roof party. Heirloom bitters freegan tumeric, pitchfork man bun tousled tilde. Pabst organic keffiyeh bushwick waistcoat, normcore meditation pour-over pug deep v chartreuse sustainable air plant wolf vegan. Roof party flannel echo park squid, messenger bag whatever bicycle rights stumptown hammock forage chillwave banh mi umami mumblecore.</p>
       </div>
+      <!-- Portfolio -->
       <div class="section">
         <h2 id="portfolio">Portfolio</h2>
         <ul>
@@ -88,4 +108,5 @@
       </div>
     </div>
   </body>
+  <script src="js/script.js"></script>
 </html>
